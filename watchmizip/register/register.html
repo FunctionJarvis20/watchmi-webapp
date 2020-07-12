@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WatchMi-SignUp</title>
+    <script src="https://kit.fontawesome.com/d696af1192.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Caslon+Text&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Caslon+Text|Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="../default.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="register.css">
+
+</head>
+<body>
+        <header>
+                <div class="container-header">
+                    <div class="box" id="menu">
+                        <img id="menu-icon" src="../images/icons/menu4.png" alt="menu">
+                    </div>
+                    <div class="box" id="banner">
+                       <a href="../index.html"> Watch<span class="mi">Mi</span></a>
+                    </div>
+                    <div class="box">
+                        <button  id="signin-but">
+                                <a href="../signin/sign-in.html" class="white-link">Sign in</a>
+                            </button>
+                        </div>
+
+                    </div>
+                </header>
+    <!--side navbar-->
+    <div  id="sidenav">
+        <div class="side-nav-header">
+            <div id="side-nav-branding" class="branding">
+                Watch<span class="mi">Mi</span>
+            </div>
+            <div id="close-btn">close</div>
+        </div>
+        <div id="search-box">
+            <form action="">
+                <div id="search-container" >
+                    <input type="text" id="search-input" class="input" placeholder="search here..">
+                        <i class="fas fa-search" id="search-icon"></i>
+                </div>
+            </form>
+        </div>
+        <div id="catagories">
+            <ul id="list">
+                <li><a href="index.html" id="active">Home</a></li>
+                <li><a href="#">Featured</a></li>
+                <li><a href="#">Horror</a></li>
+                <li><a href="#">Romantic</a></li>
+                <li><a href="#">Action</a></li>
+            </ul>
+        </div>
+        <div class="side-nav-footer">
+            copyrights &copy; 2019
+            <div class="side-nav-footer-sub">
+                Made with <i class="fas fa-heart"></i> in India
+            </div>
+        </div>
+    </div>
+    <section class="form" id="frm">
+        <div class="form-container">
+            <h3 class="form-heading">Register</h3>
+            <form>
+                <div class="form-group">
+                    <input type="text" class="form-control text-in form-control-lg" placeholder="Username" id="username">
+                </div>
+                <div class="form-group">
+                        <input type="email" class="form-control text-in form-control-lg" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+                </div>
+                <div class="form-group">
+                        <input type="password" class="form-control text-in form-control-lg" id="password" placeholder="Password">
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control text-in form-control-lg" id="confirm-password" placeholder="Confirm Password">
+                </div>
+                <div class="form-footer">
+                    By clicking, you agree to
+                    <a href="#" class="form-footer-links">Terms of Use</a> and <a href="#" class="form-footer-links">Privacy Policy</a>
+                </div>
+                <div class="form-group">
+                    <input type="submit" class="form-control" id="register-btn" value="Register">
+                </div>
+                <span class="text">Have an account ?</span><a href="../signin/sign-in.html" class="form-footer-links">Sign In</a>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-branding">
+               <span id="watch">Watch</span><span class="mi">Mi</span>
+            </div>
+            <div class="footer-socialmedia-container">
+
+                    <i class="fab fa-facebook-square facebook"></i>
+
+                    <i class="fab fa-instagram insta"></i>
+
+                    <i class="fab fa-twitter-square twitter"></i>
+
+            </div>
+            <div class="footer-bottem">
+                <ul>
+                    <li><a href="#">Policy </a>|</li>
+                    <li><a href="#">DMCA </a>|</li>
+                    <li><a href="#">Terms of Use</a></li>
+                </ul>
+                <div class="copyright">
+                    copyright &copy; WatchMi ,2019
+                </div>
+                Made with <i class="fas fa-heart"></i> in India
+
+            </div>
+        </div>
+    </footer>
+    <script src="register.js"></script>
+    <script src="../main.js"></script>
+
+</body>
+</html>

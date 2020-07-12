@@ -1,0 +1,82 @@
+._container{
+    margin-top: 50px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.catagory-heading,.catagory-info{
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+.catagory-heading{
+    border-bottom: 2px solid;
+    width: 100%; 
+}
+.catagory-heading>h1{
+    font-size: 50px;
+    font-weight: 600;
+    color: #44318d;
+    letter-spacing: 1;
+}
+.catagory-info{
+    font-size: 22px;
+}
+.movie-list{
+    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.movie-list li{
+    display: inline-block;
+    min-height: 200px;
+    margin: 10px;
+}
+.movie-name{
+    width: 100px;
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background: #44318d;
+    width: 100%;
+    font-size: 16px;
+    height: 50px;
+    bottom: 0;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.flex-container{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    position: relative;
+}
+.two{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+h1{
+    padding: 20px;
+}
+
+@media screen and (min-width:1024px){
+
+    .two{
+        width: 80%;
+    }
+    .catagory-heading{
+        width: 80%; 
+    }
+
+}

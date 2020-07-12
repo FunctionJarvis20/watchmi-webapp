@@ -1,0 +1,20 @@
+.user-image{
+    margin: 50px 0;
+    text-align: center;
+}
+.user{
+    width: 130px;
+}
+.wrapper{
+    margin-top: 20px;
+    color: #5e538a;
+}
+#create-acc{
+    display: inline-block;
+    color: #d83f87;
+    margin-left: 10px;
+    text-decoration: underline;
+    font-size: 25px;
+    cursor: pointer;
+    
+}

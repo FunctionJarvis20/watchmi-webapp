@@ -1,0 +1,36 @@
+.main-movie-container{
+    margin-top: 65px;
+    background: #2a1b3d;
+}
+.main-movie-container>.container>.row>.col-md-12{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.main-movie-container iframe{
+    width: 100%;
+    padding-top: 20px;
+}
+.movie-info-container{
+    background: white;
+    padding: 20px;
+}
+
+.main-movie-container .movie-info-wrapper{
+    display: flex;
+    flex-direction: row;
+    background: wheat;
+    padding: 50px;
+    width: 100%;
+    justify-content: center;
+}
+
+.main-movie-container .movie-info-wrapper>.movie-info-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+
+}
